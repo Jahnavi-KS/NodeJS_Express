@@ -29,7 +29,7 @@
     "express"
   ],
   "author": "me",
-  "license": "MIT"
+  "license": "MIT",
   "engines": {
    "node": "14.15.1"
    }
