@@ -6,6 +6,10 @@ const PORT = process.env.PORT || 3000
 const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb+srv://jahanvi123:mongo123@cluster0.igdjg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
+router.get('/', function(req, res) {
+  res.send('App deployed successfully');
+});
+
 module.exports = router;
 
 
